@@ -23,8 +23,10 @@ function App() {
           <Header/>            
        </div>
        <div className="contentCom">
-         <button style={{border:"none",backgroundColor:"transparent"}}>Home<KeyboardArrowRightIcon/></button>
-         <button style={{border:"none",backgroundColor:"transparent"}}><h6>Overview</h6></button>
+         <div>
+              <button style={{border:"none",backgroundColor:"transparent"}}>Home<KeyboardArrowRightIcon/></button>
+              <button style={{border:"none",backgroundColor:"transparent"}}><h6>Overview</h6></button>
+          </div>
         <ContentPart/>
         <Footer/>
        </div>

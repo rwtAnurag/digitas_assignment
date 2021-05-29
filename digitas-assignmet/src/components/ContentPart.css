@@ -1,11 +1,12 @@
-.contents{
-    height: 100%;
-    background-color: white;
-    padding:1%;
-    padding-bottom: 2rem;
-    /* background-color: rgb(141, 141, 196); */
-}
+
 @media(min-width:980px){
+    .contents{
+        height: 100%;
+        background-color: white;
+        padding:1%;
+        padding-bottom: 2rem;
+        /* background-color: rgb(141, 141, 196); */
+    }
     .pressReleases{
         width: 80%;
     }
@@ -62,6 +63,14 @@
     }
 }
 @media(max-width:980px){
+    .contents{
+        height: 100%;
+        background-color: white;
+        padding:4%;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: rgb(141, 141, 196); */
+    }
     .desBlock-2{
         width: 100%;
         height: 100%;
@@ -107,7 +116,8 @@
         margin-bottom: 3rem;
         /* opacity: 0.6; */
         font-size: 15px;
-        /* padding-left:2% */
+        padding-left:3%;
+        padding-right:3%;
     }
 }
 
