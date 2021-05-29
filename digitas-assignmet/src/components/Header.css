@@ -1,0 +1,140 @@
+.header{
+    background-image: linear-gradient(#ffffff,#ffffff,  #f2f2f2,#ececec,  #d9d9d9, #c0c0c0,#c0c0c0);
+    position: relative;
+    height: 140px;
+    top:40%;
+     /* position:fixed; */
+}
+.menuBarIcon:hover >ol li{
+    display: block;
+}
+.menudropdown1 {
+    position: absolute; 
+   bottom: 0;
+   
+   padding-right: 2%;
+    padding-left: 2%;
+   width: 100%;
+}
+.mt-overflow-auto {   
+    overflow: auto;
+}
+.menudropdown1 ul li{
+     color: white;
+     float: left;
+     border-top: 2px solid rgb(68, 67, 67);
+     width: 14.27%;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     list-style: none;
+     font-size: 16px;
+     text-align:center;
+     background-color: #216ead;
+}
+.menudropdown1 ul{
+     padding:0px;
+}
+.menudropdown1 ul li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 10px solid white;
+    position: absolute;
+    bottom: -10px;
+    left:280px;
+  }
+  .menudropdown2{
+   position:absolute;
+   right: 0;
+   display: flex;
+   padding-right: 2%;
+    padding-left: 2%;
+  }
+  
+  @media(min-width:979px){
+      .menuBar{
+          display:none;
+      }
+     
+  }
+  @media(max-width:980px){
+      .menudropdown1,.menudropdown2{
+          display: none;
+      }
+      .menubarOptions{
+          position: fixed;
+          right: 0; 
+          display: none;
+          top:0;
+          width:60%;
+          height: 100%;
+          background-color: transparent;
+      }
+      ol li{
+        list-style: none;
+      }
+      .menubarOptions ol a{
+        display: block;
+        height: 100%;
+        /* opacity: 0.6; */
+        width: 100%;
+        line-height: 50px;
+        font-size: 18px;
+        color: white;
+        /* padding-left:2rem ; */
+        text-align: center;
+        background-color: #216ead;
+        box-sizing: border-box;
+        border-top: 4px solid rgba(252, 233, 233, 0.1);
+        border-left:2px solid black ;
+        border-right:2px solid black ;
+        border-bottom: 1px solid black;
+        transitions:.4s
+      }
+      ol li:hover a{
+          padding-left: 10px;;
+      }
+      #check{
+          display: none;
+      }
+      label #btn{
+          position:absolute;
+          left: 4%;
+          cursor: pointer;
+      }
+      #btn{
+          color: white;
+          background-color:black;
+          border: 2px solid black;
+      }
+      label #btn{
+          position: fixed;
+          right: 40px;
+          top:10px;
+
+      }
+      label #cancel{
+          z-index: 1111;
+          background-color: black;
+          color: white;
+          right: 195px;
+          top:17px;
+      }
+      #check:checked ~ .menubarOptions{
+         /* right:0; */
+         display: block;
+      }
+      /* #check:checked ~  .OverView{ 
+        display: none;
+     } */
+      #check:checked ~ label #btn{
+          color:white;
+          /* display: none; */
+      }
+  }
