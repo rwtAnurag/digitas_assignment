@@ -50,9 +50,9 @@ const ContentPart = ()=>{
                                     <div style={{width:"100%"}}>
                                         <div className="ml-2 mr-4">
                                             <div >
-                                                <a><u><FiberManualRecordIcon style={{height:"10px",color:"#216ead"}}/>Lorem ipsum dolor sit amet, constructor</u></a><br/>
-                                                <a><u><FiberManualRecordIcon style={{height:"10px",color:"#216ead"}}/>Sed do eiusmod tempor incididunt ut labore at,</u></a><br/>
-                                                <a><u><FiberManualRecordIcon style={{height:"10px",color:"#216ead"}}/>Dolore magna aliqua. Ut enim ad minim vaniam</u></a>
+                                                <a href="ab"><u><FiberManualRecordIcon style={{height:"10px",color:"#216ead"}}/>Lorem ipsum dolor sit amet, constructor</u></a><br/>
+                                                <a href="ab"><u><FiberManualRecordIcon style={{height:"10px",color:"#216ead"}}/>Sed do eiusmod tempor incididunt ut labore at,</u></a><br/>
+                                                <a href="ab"><u><FiberManualRecordIcon style={{height:"10px",color:"#216ead"}}/>Dolore magna aliqua. Ut enim ad minim vaniam</u></a>
                                             </div>
                                             <button style={{color:"#216ead",float:"right",border:"none",backgroundColor:"transparent"}} className="mt-5">more   <KeyboardArrowRightIcon/></button>
 

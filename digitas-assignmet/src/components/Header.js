@@ -32,7 +32,7 @@ const Header= ()=>{
                 </div>
              </div>
             <div className="d-flex">
-                <img style={{height:"6.5rem"}} src={Logo}></img>
+                <img alt="" style={{height:"6.5rem"}} src={Logo}></img>
                 <div className="menudropdown2">
                     <button style={{border:"none",padding:"16px",backgroundColor:"transparent"}}>Welcome guest |</button>
                     <button style={{border:"none",padding:"16px",backgroundColor:"transparent"}}>Log in |</button>
